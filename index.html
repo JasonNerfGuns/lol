@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If The School Bans This I Swear</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to JasonNerfGuns Website</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#game-section">Game</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my website. I'm learning web development, But Know A Little Bit Of Coding!</p>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>This is a simple website if you want to contact me for services.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: jasonquigley892@email.com or you can join my discord</p>
+        <a href="https://discord.gg/HuG65xRgCV" target="_blank" class="discord-button">Join My Discord</a>
+    </section>
+    <section id="music">
+        <h2>Enjoy Some Calm Music</h2>
+        <audio id="classical-music" controls>
+            <source src="classical_music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <section id="game-section">
+        <h2>Play a Simple Game</h2>
+        <button id="game-button">Play Game</button>
+        <canvas id="gameCanvas" width="800" height="600" style="display: none;"></canvas>
+    </section>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
